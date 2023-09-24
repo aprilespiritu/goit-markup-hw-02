@@ -83,11 +83,19 @@ a {
     line-height: 24px;
 }
 
+a:hover {
+    color: var(--iris)
+}
+
 .main-header-cta{
     background-color: var(--iris);
     color: var(--white);
     border-radius: 3px;
     border-style: none;
+}
+
+.main-header-cta:hover{
+    background-color: var(--light-slate);
 }
 
 h2 {
@@ -116,6 +124,27 @@ h2 {
 
 button {
     cursor: pointer;
+    transition-duration: 2s;
 }
 
+button:hover {
+    background-color: var(--ocean);
+}
+
+.button-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.filter-button {
+    cursor: pointer;
+    border-width: 10px;
+    transition-duration: 2s;
+}
+
+.filter-button:hover {
+    color: var(--iris);
+}
 
