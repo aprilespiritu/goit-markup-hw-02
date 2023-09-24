@@ -3,24 +3,28 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>goit-markup-hw-01</title>
+        <title>goit-markup-hw-02</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     
     <body>
         <!-- page menu -->
         <header class="main-header">
             <div class="main-header-container">
-                    <a href="#top">WEBSTUDIO</a>
+                    <a href="#top" class="logo"><span>WEB</span>STUDIO</a>
                     <ul class="main-header-menu">
                         <nav>
                         <li class="main-header-menu-item">
-                            <a class="main-header-menu-link" href="#studio">Studio</a></li>
+                            <a class="main-header-menu-link" href="index.html" target="_self">Studio</a></li>
                         <li class="main-header-menu-item">
-                            <a class="main-header-menu-link" href="#portfolio">Portfolio</a></li>
+                            <a class="main-header-menu-link" href="portfolio.html" target="_self">Portfolio</a></li>
                         <li class="main-header-menu-item">
-                            <a class="main-header-menu-link" href="#contacts">Contacts</a></li>
+                            <a class="main-header-menu-link" href="#" target="_self">Contacts</a></li>
                         </nav>
-                        <br>
                         <li class="main-header-ctas-item">
                             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>
@@ -31,11 +35,15 @@
             </div>
         </header>
         <!-- end of page menu-->
+
+        <!-- Studio -->
         <main>
-            <!-- #studio -->
-            <h1 id="studio">Effective Solutions<br>for Your Business</h1>
-            <button class="main-header-cta" type="button">Order Service</button>
-            
+            <br><br>
+            <div class="box">
+                <h1>Effective Solutions<br>for Your Business</h1>
+                <br>
+                <button class="main-header-cta" type="button">Order Service</button>
+            </div>
             <ul>
                 <li>
                     <h3>Strategy</h3>
@@ -54,44 +62,45 @@
                     <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
-            <!-- end of #studio -->
-            <!-- #portfolio -->
-            <h2 id="portfolio">What are we doing</h2>
+            
+            <h2>What are we doing</h2>
             <ul>
                 <li><img src="images/img 1.jpg" alt="Computer" width="360"></li>
                 <li><img src="images/img 2.jpg" alt="Phone" width="360"></li>
                 <li><img src="images/img 3.jpg" alt="Interests" width="360"></li>
             </ul>
-            <!-- end of #portfolio -->
-            <!-- #contacts -->
-            <h2 id="contacts">Our Team</h2>
+            
+            <h2>Our Team</h2>
             <ul>
                 <li>
-                    <img src="images/img 4.jpg" alt="Mark Guerrero">
+                    <img src="images/team card 1.jpg" alt="Mark Guerrero">
                     <h3>Mark Guerrero</h3>
                     <p>Product Designer</p>
                 </li>
                 <li>
-                    <img src="images/img 5.jpg" alt="Tom Ford">
+                    <img src="images/team card 2.jpg" alt="Tom Ford">
                     <h3>Tom Ford</h3>
                     <p>Frontend Developer</p>
                 </li>
                 <li>
-                    <img src="images/img 6.jpg" alt="Camila Garcia">
+                    <img src="images/team card 3.jpg" alt="Camila Garcia">
                     <h3>Camila Garcia</h3>
                     <p>Marketing</p>
                 </li>
                 <li>
-                    <img src="images/img 7.jpg">
+                    <img src="images/team card 4.jpg" alt="Daniel Wilson">
                     <h3>Daniel Wilson</h3>
                     <p>UI Designer</p>
                 </li>
             </ul>
-            <!-- end of #contacts -->
         </main>
+
         <footer>
-            <a href="#top">WEBSTUDIO</a>
-            <p>Increase the flow of customers and <br> sales for your business with digital <br> marketing and growth solutions.</p>
+            <div class="box">
+                <a href="#top" class="logo-1"><span>WEB</span>STUDIO</a>
+                <p>Increase the flow of customers and <br> sales for your business with digital <br> marketing and growth solutions.</p>
+            </div>
         </footer>
+
     </body>
 </html>
